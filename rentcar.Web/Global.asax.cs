@@ -6,6 +6,8 @@ using System.Web.Mvc;
 using System.Web.Routing;
 using System.Web.Security;
 using System.Web.SessionState;
+using System.Web.Optimization;
+using rentcar.Web.App_Start;
 
 namespace rentcar.Web
 {
@@ -16,6 +18,7 @@ namespace rentcar.Web
             // Code that runs on application startup
            AreaRegistration.RegisterAllAreas();
            RouteConfig.RegisterRoutes(RouteTable.Routes);
+            BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
     }
 }
