@@ -5,10 +5,11 @@
     "\\rentcar.Web\\App_Start",
     "\\rentcar.Web\\assets",
     "\\rentcar.Web\\assets\\js",
+    "\\rentcar.Web\\Scripts",
     "\\rentcar.Web\\Views",
     "\\rentcar.Web\\Views\\Home",
     "\\rentcar.Web\\Views\\Shared"
   ],
-  "SelectedNode": "\\rentcar.Web.sln",
+  "SelectedNode": "\\rentcar.Web\\Views\\Shared\\_Layout.cshtml",
   "PreviewInSolutionExplorer": false
 }
