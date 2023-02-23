@@ -6,10 +6,12 @@
     @Styles.Render("~/bundles/font-awesome")
     @Styles.Render("~/bundles/css")
     @Styles.Render("~/fonts")
+    @Scripts.Render("~/bundles/jquery")
 
 </head>
 <body class="is-preload">
     <div id="wrapper">
+        
         @Html.Partial("_navbar")
         <div>
             @RenderBody()
@@ -19,7 +21,6 @@
     @Scripts.Render("~/bundles/bootstrap/js")
     @Scripts.Render("~/bundles/toaster")
     @Scripts.Render("~/bundles/js")
-    @Scripts.Render("~/bundles/jquery")
 
 </body>
 </html>

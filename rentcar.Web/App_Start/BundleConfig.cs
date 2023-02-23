@@ -15,7 +15,8 @@ namespace rentcar.Web.App_Start
                       "~/Content/bootstrap.min.css"));
 
             bundles.Add(new StyleBundle("~/bundles/css").Include(
-                      "~/Content/Template.css"));
+                      "~/Content/main.css",
+                      "~/Content/noscript.css"));
             bundles.Add(new ScriptBundle("~/bundles/js").Include(
                     "~/Scripts/Template.js"));
 
@@ -24,24 +25,23 @@ namespace rentcar.Web.App_Start
                        ));
 
             bundles.Add(new StyleBundle("~/bundles/font-awesome").Include(
-                       "~/lib/font-awesome/css/font-awesome.css"));
+                       "~/lib/font-awesome/css/font-awesome.css",
+                       "~/lib/font-awesome/css/font-awesome.min.css",
+                       "~/lib/font-awesome/css/main.css",
+                       "~/lib/font-awesome/css/noscript.css"));
 
             bundles.Add(new ScriptBundle("~/bundles/toaster").Include(
                         "~/lib/toster/index.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
             "~/Scripts/jquery-3.3.1.js",
+            "~/Scripts/jquery-3.3.1.min.js",
             "~/Scripts/jquery.validate.js",
+            "~/Scripts/jquery.validate.min.js",
             "~/lib/jquery.scrolly/jquery.scrolly.js",
-            "~/lib/jquery.scrollex/jquery.scrollex.js"
+            "~/lib/jquery.scrollex/jquery.scrollex.js"));
 
-            ));
 
-            bundles.Add(new Bundle("~/fonts").Include(
-            "~/lib/font-awesome/fonts/fontawesome-webfont.woff",
-            "~/lib/font-awesome/fonts/fontawesome-webfont.woff2",
-            "~/lib/font-awesome/fonts/fontawesome-webfont.ttf"
-            ));
 
 
             //bundles.Add(new ScriptBundle("~/bundles/toaster/css").Include(
