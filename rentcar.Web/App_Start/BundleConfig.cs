@@ -25,10 +25,10 @@ namespace rentcar.Web.App_Start
                        ));
 
             bundles.Add(new StyleBundle("~/bundles/font-awesome").Include(
-                       "~/lib/font-awesome/css/font-awesome.css",
-                       "~/lib/font-awesome/css/font-awesome.min.css",
-                       "~/lib/font-awesome/css/main.css",
-                       "~/lib/font-awesome/css/noscript.css"));
+                       "~/Content/font-awesome/css/font-awesome.css",
+                       "~/Content/font-awesome/css/font-awesome.min.css",
+                       "~/Content/font-awesome/css/main.css",
+                       "~/Content/font-awesome/css/noscript.css"));
 
             bundles.Add(new ScriptBundle("~/bundles/toaster").Include(
                         "~/lib/toster/index.js"));
