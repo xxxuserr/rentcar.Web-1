@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "defaultProvider": "jsdelivr",
+  "libraries": [
+    {
+      "library": "font-awesome@4.7.0",
+      "destination": "lib/font-awesome/"
+    },
+    {
+      "library": "toaster@0.1.2",
+      "destination": "lib/toaster/"
+    },
+    {
+      "library": "jquery.scrolly@0.0.1",
+      "destination": "lib/jquery.scrolly/"
+    },
+    {
+      "library": "jquery.scrollex@0.2.1",
+      "destination": "lib/jquery.scrollex/"
+    }
+  ]
+}
