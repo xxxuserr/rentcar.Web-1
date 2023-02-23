@@ -322,6 +322,16 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\about.cshtml" />
+    <Content Include="Views\Home\blog-post.cshtml" />
+    <Content Include="Views\Home\blog.cshtml" />
+    <Content Include="Views\Home\contact.cshtml" />
+    <Content Include="Views\Home\faq.cshtml" />
+    <Content Include="Views\Home\fleet.cshtml" />
+    <Content Include="Views\Home\offers.cshtml" />
+    <Content Include="Views\Home\team.cshtml" />
+    <Content Include="Views\Home\terms.cshtml" />
+    <Content Include="Views\Home\testimonials.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
