@@ -23,5 +23,45 @@ namespace rentcar.Web.Controllers
         {
             return View();
         }
+        // GET: Home/About
+        public ActionResult About()
+        {
+            return View();
+        }
+        // GET: Home/Blogpost
+        public ActionResult Blogpost()
+        {
+            return View();
+        }
+        // GET: Home/Faq
+        public ActionResult Faq()
+        {
+            return View();
+        }
+        // GET: Home/Offers
+        public ActionResult Fleet()
+        {
+            return View();
+        }
+        // GET: Home/Team
+        public ActionResult Team()
+        {
+            return View();
+        }
+        // GET: Home/Terms
+        public ActionResult Terms()
+        {
+            return View();
+        }
+        // GET: Home/Testimonials
+        public ActionResult Testimonials()
+        {
+            return View();
+        }
+        // GET: Home/Blog
+        public ActionResult Blog()
+        {
+            return View();
+        }
     }
 }
