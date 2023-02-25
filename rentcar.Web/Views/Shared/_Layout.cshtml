@@ -6,11 +6,12 @@
     @Styles.Render("~/bundles/font-awesome")
     @Styles.Render("~/bundles/css")
     @Scripts.Render("~/bundles/jquery")
-
+    <link rel="shortcut icon" href="images/favicon.ico" />
 </head>
 <body class="is-preload">
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script src="~/Scripts/script.js"></script>
     <div id="wrapper">
-        
         @Html.Partial("_navbar")
         <div>
             @RenderBody()
