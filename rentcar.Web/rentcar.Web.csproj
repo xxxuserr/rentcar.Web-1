@@ -202,6 +202,7 @@
     <Content Include="lib\font-awesome\css\noscript.css" />
     <Content Include="lib\font-awesome\fonts\fontawesome-webfont.svg" />
     <Content Include="lib\font-awesome\HELP-US-OUT.txt" />
+    <Content Include="lib\font-awesome\style.css" />
     <Content Include="lib\jquery.scrollex\jquery.scrollex.js" />
     <Content Include="lib\jquery.scrollex\jquery.scrollex.min.js" />
     <Content Include="lib\jquery.scrolly\example\css\styles.css" />
@@ -454,6 +455,8 @@
     <Content Include="Views\Home\Team.cshtml" />
     <Content Include="Views\Home\Terms.cshtml" />
     <Content Include="Views\Home\Testimonials.cshtml" />
+    <Content Include="Views\Shared\_Login.cshtml" />
+    <Content Include="Views\Home\Login.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

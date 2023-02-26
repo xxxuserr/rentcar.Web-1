@@ -63,5 +63,11 @@ namespace rentcar.Web.Controllers
         {
             return View();
         }
+        // GET: Home/Login
+        public ActionResult Login()
+        {
+            return View();
+        }
+
     }
 }
