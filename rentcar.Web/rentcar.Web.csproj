@@ -152,7 +152,6 @@
     <Content Include="Content\main.css" />
     <Content Include="Content\noscript.css" />
     <Content Include="Content\Site.css" />
-    <Content Include="Content\style_popup.css" />
     <Content Include="Content\themes\base\accordion.css" />
     <Content Include="Content\themes\base\all.css" />
     <Content Include="Content\themes\base\autocomplete.css" />
@@ -459,7 +458,6 @@
     <Content Include="Views\Home\Testimonials.cshtml" />
     <Content Include="Views\Shared\_Login.cshtml" />
     <Content Include="Views\Home\Login.cshtml" />
-    <Content Include="Views\Home\popup.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
