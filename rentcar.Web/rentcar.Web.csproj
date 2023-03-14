@@ -456,6 +456,7 @@
     <Content Include="Views\Home\Testimonials.cshtml" />
     <Content Include="Views\Shared\_Login.cshtml" />
     <Content Include="Views\Home\Login.cshtml" />
+    <Content Include="Views\Home\Team.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
