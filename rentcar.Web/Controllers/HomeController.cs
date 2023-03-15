@@ -23,6 +23,11 @@ namespace rentcar.Web.Controllers
         {
             return View();
         }
+          // GET: Home/Offers_suv
+        public ActionResult Offers_suv()
+        {
+            return View();
+        }
         // GET: Home/About
         public ActionResult About()
         {
