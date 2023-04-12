@@ -195,10 +195,17 @@
     <Content Include="Content\themes\base\tooltip.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="images\dacia_duster.jpeg" />
+    <Content Include="images\dacia_logan.jpg" />
+    <Content Include="images\ec.jpg" />
     <Content Include="images\favicon.ico" />
+    <Content Include="images\ford_fiesta.jpg" />
     <Content Include="images\ford_kuga_st_2018.jpeg" />
+    <Content Include="images\hyundai_accent.jpg" />
+    <Content Include="images\kia_rio.jpg" />
     <Content Include="images\lexus_rx_450h.jpeg" />
     <Content Include="images\rav4.jpeg" />
+    <Content Include="images\smart_car.jpg" />
+    <Content Include="images\toyota_corolla.jpg" />
     <Content Include="images\tucson_2022.jpeg" />
     <Content Include="images\vw_touareg.jpeg" />
     <Content Include="libman.json" />
@@ -464,6 +471,7 @@
     <Content Include="Views\Home\Login.cshtml" />
     <Content Include="Views\Home\Team.cshtml" />
     <Content Include="Views\Home\Offers_suv.cshtml" />
+    <Content Include="Views\Home\Offers_econom.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
