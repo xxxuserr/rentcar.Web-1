@@ -4,23 +4,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rentcar.Web", "rentcar.Web\rentcar.Web.csproj", "{E3D49FCA-49DB-412D-A911-C99721F51DA4}"
-	ProjectSection(ProjectDependencies) = postProject
-		{2B2435C3-AE75-4A14-9C3D-015E332439EB} = {2B2435C3-AE75-4A14-9C3D-015E332439EB}
-		{BB250C8C-3577-44D6-BADB-A26823B4E486} = {BB250C8C-3577-44D6-BADB-A26823B4E486}
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rentcar.BusinessLogic", "rentcar.BusinessLogic\rentcar.BusinessLogic.csproj", "{2B2435C3-AE75-4A14-9C3D-015E332439EB}"
-	ProjectSection(ProjectDependencies) = postProject
-		{427DDF41-5DF5-4BF6-8372-DEF1AC377CFD} = {427DDF41-5DF5-4BF6-8372-DEF1AC377CFD}
-		{BB250C8C-3577-44D6-BADB-A26823B4E486} = {BB250C8C-3577-44D6-BADB-A26823B4E486}
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rentcar.Domain", "rentcar.Domain\rentcar.Domain.csproj", "{BB250C8C-3577-44D6-BADB-A26823B4E486}"
-	ProjectSection(ProjectDependencies) = postProject
-		{427DDF41-5DF5-4BF6-8372-DEF1AC377CFD} = {427DDF41-5DF5-4BF6-8372-DEF1AC377CFD}
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rentcar.Helpers", "rentcar.Helpers\rentcar.Helpers.csproj", "{427DDF41-5DF5-4BF6-8372-DEF1AC377CFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,18 +15,6 @@ Global
 		{E3D49FCA-49DB-412D-A911-C99721F51DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3D49FCA-49DB-412D-A911-C99721F51DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3D49FCA-49DB-412D-A911-C99721F51DA4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2B2435C3-AE75-4A14-9C3D-015E332439EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2B2435C3-AE75-4A14-9C3D-015E332439EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2B2435C3-AE75-4A14-9C3D-015E332439EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2B2435C3-AE75-4A14-9C3D-015E332439EB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BB250C8C-3577-44D6-BADB-A26823B4E486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BB250C8C-3577-44D6-BADB-A26823B4E486}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BB250C8C-3577-44D6-BADB-A26823B4E486}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BB250C8C-3577-44D6-BADB-A26823B4E486}.Release|Any CPU.Build.0 = Release|Any CPU
-		{427DDF41-5DF5-4BF6-8372-DEF1AC377CFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{427DDF41-5DF5-4BF6-8372-DEF1AC377CFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{427DDF41-5DF5-4BF6-8372-DEF1AC377CFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{427DDF41-5DF5-4BF6-8372-DEF1AC377CFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

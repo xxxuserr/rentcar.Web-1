@@ -429,3 +429,7 @@ C:\GitHub\rentcar.Web\rentcar.Web\obj\Debug\rentcar.Web.csproj.CoreCompileInputs
 C:\GitHub\rentcar.Web\rentcar.Web\obj\Debug\rentcar.Web.csproj.CopyComplete
 C:\GitHub\rentcar.Web\rentcar.Web\obj\Debug\rentcar.Web.dll
 C:\GitHub\rentcar.Web\rentcar.Web\obj\Debug\rentcar.Web.pdb
+C:\Users\Dan\Documents\GitHub\rentcar.Web\rentcar.Web\bin\EntityFramework.dll
+C:\Users\Dan\Documents\GitHub\rentcar.Web\rentcar.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\Dan\Documents\GitHub\rentcar.Web\rentcar.Web\bin\EntityFramework.xml
+C:\Users\Dan\Documents\GitHub\rentcar.Web\rentcar.Web\bin\EntityFramework.SqlServer.xml

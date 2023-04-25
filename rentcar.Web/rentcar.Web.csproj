@@ -490,16 +490,6 @@
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\index.d.ts" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\rentcar.BusinessLogic\rentcar.BusinessLogic.csproj">
-      <Project>{2b2435c3-ae75-4a14-9c3d-015e332439eb}</Project>
-      <Name>rentcar.BusinessLogic</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\rentcar.Domain\rentcar.Domain.csproj">
-      <Project>{bb250c8c-3577-44d6-badb-a26823b4e486}</Project>
-      <Name>rentcar.Domain</Name>
-    </ProjectReference>
-  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
