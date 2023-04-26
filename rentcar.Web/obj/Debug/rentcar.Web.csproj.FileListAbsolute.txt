@@ -312,6 +312,8 @@ C:\Users\Nimerenco\Documents\GitHub\rentcar.Web\rentcar.Web\obj\Debug\rentcar.We
 C:\Users\Nimerenco\Documents\GitHub\rentcar.Web\rentcar.Web\obj\Debug\rentcar.Web.csproj.CopyComplete
 C:\Users\Nimerenco\Documents\GitHub\rentcar.Web\rentcar.Web\obj\Debug\rentcar.Web.dll
 C:\Users\Nimerenco\Documents\GitHub\rentcar.Web\rentcar.Web\obj\Debug\rentcar.Web.pdb
+C:\GitHub\rentcar.Web\rentcar.Web\obj\Debug\rentcar.Web.csproj.AssemblyReference.cache
+C:\GitHub\rentcar.Web\rentcar.Web\obj\Debug\rentcar.Web.csproj.CoreCompileInputs.cache
 C:\GitHub\rentcar.Web\rentcar.Web\bin\rentcar.Web.dll.config
 C:\GitHub\rentcar.Web\rentcar.Web\bin\rentcar.Web.dll
 C:\GitHub\rentcar.Web\rentcar.Web\bin\rentcar.Web.pdb
@@ -376,6 +378,8 @@ C:\GitHub\rentcar.Web\rentcar.Web\bin\roslyn\vbc.rsp
 C:\GitHub\rentcar.Web\rentcar.Web\bin\roslyn\VBCSCompiler.exe
 C:\GitHub\rentcar.Web\rentcar.Web\bin\roslyn\VBCSCompiler.exe.config
 C:\GitHub\rentcar.Web\rentcar.Web\bin\Antlr3.Runtime.dll
+C:\GitHub\rentcar.Web\rentcar.Web\bin\EntityFramework.dll
+C:\GitHub\rentcar.Web\rentcar.Web\bin\EntityFramework.SqlServer.dll
 C:\GitHub\rentcar.Web\rentcar.Web\bin\Microsoft.AI.Agent.Intercept.dll
 C:\GitHub\rentcar.Web\rentcar.Web\bin\Microsoft.AI.DependencyCollector.dll
 C:\GitHub\rentcar.Web\rentcar.Web\bin\Microsoft.AI.PerfCounterCollector.dll
@@ -400,6 +404,8 @@ C:\GitHub\rentcar.Web\rentcar.Web\bin\System.Web.Webpages.dll
 C:\GitHub\rentcar.Web\rentcar.Web\bin\System.Web.Webpages.Razor.dll
 C:\GitHub\rentcar.Web\rentcar.Web\bin\WebGrease.dll
 C:\GitHub\rentcar.Web\rentcar.Web\bin\Antlr3.Runtime.pdb
+C:\GitHub\rentcar.Web\rentcar.Web\bin\EntityFramework.xml
+C:\GitHub\rentcar.Web\rentcar.Web\bin\EntityFramework.SqlServer.xml
 C:\GitHub\rentcar.Web\rentcar.Web\bin\Microsoft.AI.DependencyCollector.pdb
 C:\GitHub\rentcar.Web\rentcar.Web\bin\Microsoft.AI.DependencyCollector.xml
 C:\GitHub\rentcar.Web\rentcar.Web\bin\Microsoft.AI.PerfCounterCollector.pdb
@@ -424,12 +430,24 @@ C:\GitHub\rentcar.Web\rentcar.Web\bin\System.Web.Webpages.Deployment.xml
 C:\GitHub\rentcar.Web\rentcar.Web\bin\System.Web.Webpages.Razor.xml
 C:\GitHub\rentcar.Web\rentcar.Web\bin\System.Web.Helpers.xml
 C:\GitHub\rentcar.Web\rentcar.Web\bin\System.Web.Mvc.xml
-C:\GitHub\rentcar.Web\rentcar.Web\obj\Debug\rentcar.Web.csproj.AssemblyReference.cache
-C:\GitHub\rentcar.Web\rentcar.Web\obj\Debug\rentcar.Web.csproj.CoreCompileInputs.cache
 C:\GitHub\rentcar.Web\rentcar.Web\obj\Debug\rentcar.Web.csproj.CopyComplete
 C:\GitHub\rentcar.Web\rentcar.Web\obj\Debug\rentcar.Web.dll
 C:\GitHub\rentcar.Web\rentcar.Web\obj\Debug\rentcar.Web.pdb
+<<<<<<< HEAD
 C:\Users\Dan\Documents\GitHub\rentcar.Web\rentcar.Web\bin\EntityFramework.dll
 C:\Users\Dan\Documents\GitHub\rentcar.Web\rentcar.Web\bin\EntityFramework.SqlServer.dll
 C:\Users\Dan\Documents\GitHub\rentcar.Web\rentcar.Web\bin\EntityFramework.xml
 C:\Users\Dan\Documents\GitHub\rentcar.Web\rentcar.Web\bin\EntityFramework.SqlServer.xml
+=======
+C:\GitHub\rentcar.Web\rentcar.Web\bin\AutoMapper.dll
+C:\GitHub\rentcar.Web\rentcar.Web\bin\rentcar.BusinessLogic.dll
+C:\GitHub\rentcar.Web\rentcar.Web\bin\rentcar.Domain.dll
+C:\GitHub\rentcar.Web\rentcar.Web\bin\rentcar.Helpers.dll
+C:\GitHub\rentcar.Web\rentcar.Web\bin\rentcar.BusinessLogic.pdb
+C:\GitHub\rentcar.Web\rentcar.Web\bin\rentcar.BusinessLogic.dll.config
+C:\GitHub\rentcar.Web\rentcar.Web\bin\rentcar.Domain.pdb
+C:\GitHub\rentcar.Web\rentcar.Web\bin\rentcar.Domain.dll.config
+C:\GitHub\rentcar.Web\rentcar.Web\bin\AutoMapper.xml
+C:\GitHub\rentcar.Web\rentcar.Web\bin\rentcar.Helpers.pdb
+C:\GitHub\rentcar.Web\rentcar.Web\bin\rentcar.Helpers.dll.config
+>>>>>>> Busineslogicrevert
