@@ -1,10 +1,13 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
+using AutoMapper;
 using rentcar.BusinessLogic.DBModel;
 using rentcar.Domain.Entities.User;
 using rentcar.Helpers;
+using static System.Collections.Specialized.BitVector32;
 
 namespace rentcar.BusinessLogic.Core
 {

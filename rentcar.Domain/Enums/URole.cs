@@ -13,4 +13,3 @@ namespace rentcar.Domain.Enums
           Admin
      }
 }
-

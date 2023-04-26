@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,7 +11,7 @@ namespace rentcar.BusinessLogic.DBModel
      class UserContext : DbContext
      {
           public UserContext() :
-              base("name=rentcar") // connection string name define in your web.config
+              base("name=rentcar") // connectionstring name define in your web.config
           {
           }
 

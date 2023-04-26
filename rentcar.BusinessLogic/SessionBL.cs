@@ -1,8 +1,7 @@
 ﻿using System.Web;
+using rentcar.Domain.Entities.User;
 using rentcar.BusinessLogic.Core;
 using rentcar.BusinessLogic.Interfaces;
-using rentcar.Domain.Entities.User;
-
 
 namespace rentcar.BusinessLogic
 {
