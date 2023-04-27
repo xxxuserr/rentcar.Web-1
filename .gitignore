@@ -244,3 +244,6 @@ paket-files/
 .idea/
 *.sln.iml
 .vs/rentcar.Web/v17/.suo
+.vs/rentcar.Web/v17/.suo
+.vs/rentcar.Web/config/applicationhost.config
+*.cache
