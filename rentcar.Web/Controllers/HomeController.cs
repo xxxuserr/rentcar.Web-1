@@ -8,11 +8,12 @@ namespace rentcar.Web.Controllers
 {
     public class HomeController : Controller
     {
-        // GET: Home
+        [AllowAnonymous]
         public ActionResult Index()
         {
             return View();
         }
+       
         // GET: Home/Contact
         public ActionResult Contact()
         {
