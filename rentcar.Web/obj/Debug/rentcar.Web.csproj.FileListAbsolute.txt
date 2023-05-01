@@ -244,3 +244,10 @@ C:\Users\Dan\Documents\GitHub\rentcar.Web\rentcar.Web\obj\Debug\rentcar.Web.cspr
 C:\Users\Dan\Documents\GitHub\rentcar.Web\rentcar.Web\obj\Debug\rentcar.Web.csproj.CopyComplete
 C:\Users\Dan\Documents\GitHub\rentcar.Web\rentcar.Web\obj\Debug\rentcar.Web.dll
 C:\Users\Dan\Documents\GitHub\rentcar.Web\rentcar.Web\obj\Debug\rentcar.Web.pdb
+C:\Users\Dan\Documents\GitHub\rentcar.Web\rentcar.Web\bin\rencar.BusinessObjects.dll
+C:\Users\Dan\Documents\GitHub\rentcar.Web\rentcar.Web\bin\rentcar.BusinessLogic.dll
+C:\Users\Dan\Documents\GitHub\rentcar.Web\rentcar.Web\bin\rentcar.DataAccess.dll
+C:\Users\Dan\Documents\GitHub\rentcar.Web\rentcar.Web\bin\rencar.BusinessObjects.pdb
+C:\Users\Dan\Documents\GitHub\rentcar.Web\rentcar.Web\bin\rentcar.BusinessLogic.pdb
+C:\Users\Dan\Documents\GitHub\rentcar.Web\rentcar.Web\bin\rentcar.DataAccess.pdb
+C:\Users\Dan\Documents\GitHub\rentcar.Web\rentcar.Web\bin\rentcar.DataAccess.dll.config
