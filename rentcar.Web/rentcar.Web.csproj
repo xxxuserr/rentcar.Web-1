@@ -447,6 +447,7 @@
     <Compile Include="Controllers\AccountsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\ReservationsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -482,6 +483,7 @@
     <Content Include="Views\Home\Login.cshtml" />
     <Content Include="Views\Home\Team.cshtml" />
     <Content Include="Views\Home\Offers_suv.cshtml" />
+    <Content Include="Views\Reservations\Booking.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

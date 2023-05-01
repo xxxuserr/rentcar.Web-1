@@ -45,6 +45,7 @@
     <Compile Include="CustomBO.cs" />
     <Compile Include="LoginBO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReservationBO.cs" />
     <Compile Include="UserBO.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
