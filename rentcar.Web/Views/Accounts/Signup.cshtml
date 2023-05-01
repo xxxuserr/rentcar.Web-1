@@ -4,7 +4,8 @@
     ViewBag.Tittle = "Signup";
 }
 
-@using (Html.BeginForm())
+@using (Html.BeginForm("Signup", "Accounts", FormMethod.Post))
+
 {
     @Html.AntiForgeryToken()
 
