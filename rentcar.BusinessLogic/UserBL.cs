@@ -14,5 +14,9 @@ namespace rentcar.BusinessLogic
         {
             return new UserDAL().AddUser(objUserBo);
         }
+        public CustomBO Login(LoginBO objUserBo)
+        {
+            return new UserDAL().Login(objUserBo);
+        }
     }
 }
