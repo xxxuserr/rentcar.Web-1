@@ -278,16 +278,6 @@
     <Content Include="lib\font-awesome\scss\_variables.scss" />
     <Content Include="lib\font-awesome\scss\font-awesome.scss" />
     <Content Include="lib\toaster\package.json" />
-    <Content Include="Models\EDM.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>EDM.edmx</DependentUpon>
-      <LastGenOutput>EDM.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="Models\EDM.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>EDM.edmx</DependentUpon>
-      <LastGenOutput>EDM.cs</LastGenOutput>
-    </Content>
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -359,13 +349,6 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
-    <EntityDeploy Include="Models\EDM.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>EDM.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <Content Include="Models\EDM.edmx.diagram">
-      <DependentUpon>EDM.edmx</DependentUpon>
-    </Content>
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -463,28 +446,11 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AccountsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\EDM.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>EDM.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\EDM.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>EDM.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\EDM.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>EDM.edmx</DependentUpon>
-    </Compile>
     <Compile Include="Models\LoginViewModel.cs" />
-    <Compile Include="Models\UsersTbl.cs">
-      <DependentUpon>EDM.tt</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -526,6 +492,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Login\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
@@ -533,6 +500,20 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\index.d.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\rencar.BusinessObjects\rentcar.BusinessObjects.csproj">
+      <Project>{d12c7b4c-e625-479c-8b07-3b3962391eec}</Project>
+      <Name>rentcar.BusinessObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\rentcar.BusinessLogic\rentcar.BusinessLogic.csproj">
+      <Project>{1a8dee3f-82cd-43f4-8f7b-358e4b1777f8}</Project>
+      <Name>rentcar.BusinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\rentcar.DataAccess\rentcar.DataAccess.csproj">
+      <Project>{BE4ABC87-6F84-4791-BF18-E4CB78BFAD7E}</Project>
+      <Name>rentcar.DataAccess</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
