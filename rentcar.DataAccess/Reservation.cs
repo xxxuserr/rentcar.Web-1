@@ -12,11 +12,14 @@ namespace rentcar.DataAccess
     using System;
     using System.Collections.Generic;
     
-    public partial class User
+    public partial class Reservation
     {
-        public string UserName { get; set; }
-        public string UserEmail { get; set; }
-        public string UserPasscode { get; set; }
-        public int UserId { get; set; }
+        public int RId { get; set; }
+        public string RUserName { get; set; }
+        public string RUserEmail { get; set; }
+        public string RUserMark { get; set; }
+        public string RUserModel { get; set; }
+        public string RPickUpDateTime { get; set; }
+        public string RDropOffDateTime { get; set; }
     }
 }

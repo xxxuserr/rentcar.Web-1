@@ -26,5 +26,6 @@ namespace rentcar.DataAccess
         }
     
         public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<Reservation> Reservations { get; set; }
     }
 }
