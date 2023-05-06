@@ -44,5 +44,11 @@ namespace rentcar.Web.Controllers
             }
             return View(objUserBO);
         }
+        public ActionResult Signout()
+        {
+            FormsAuthentication.SignOut();
+            Session.Abandon();
+            return RedirectToAction("Index", "Home");
+        }
     }
 }
