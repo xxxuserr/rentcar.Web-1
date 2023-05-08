@@ -23,13 +23,17 @@
             </nav>
         </div>
     </header>
+    @if (User.IsInRole("Admin"))
+    {
+        <h2>You are admin now</h2>
+    }
     <nav id="menu">
         <h2>@Html.ActionLink("RentCar Menu", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })</h2>
         <ul>
             @{
                 if (isLoggedIn)
                 {
-                        <li>@Html.ActionLink(User.Identity.Name, "Index", "Home")</li>
+                    <li>@Html.ActionLink(User.Identity.Name, "Index", "Home")</li>
                     <li>@Html.ActionLink("Signout", "Signout", "Accounts")</li>
 
                 }

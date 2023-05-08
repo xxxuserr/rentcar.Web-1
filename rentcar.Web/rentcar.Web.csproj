@@ -438,6 +438,8 @@
     <Content Include="Scripts\umd\popper.min.js" />
     <Content Include="Views\Accounts\Login.cshtml" />
     <Content Include="Views\Accounts\Signup.cshtml" />
+    <Content Include="Views\Shared\_Admin.cshtml" />
+    <Content Include="Views\Admin\Index.cshtml" />
     <None Include="Views\Home\contact.cshtml" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -445,12 +447,14 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AccountsController.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\ReservationsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="MyRoleProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

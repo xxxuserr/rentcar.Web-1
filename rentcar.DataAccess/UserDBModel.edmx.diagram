@@ -5,9 +5,12 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="165af50ed98e43b3bfaf3d2d89a549fc" Name="Diagram1">
-        <EntityTypeShape EntityType="UserDBModel.User" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="UserDBModel.Reservation" Width="1.5" PointX="4.75" PointY="0.625" />
-      </Diagram>
+        <EntityTypeShape EntityType="UserDBModel.Role" Width="1.5" PointX="3" PointY="4" />
+        <EntityTypeShape EntityType="UserDBModel.sysdiagram" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="UserDBModel.User" Width="1.5" PointX="0.75" PointY="3.875" />
+        <AssociationConnector Association="UserDBModel.FK__Roles__UserId__1EA48E88" />
+        </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
 </edmx:Edmx>
