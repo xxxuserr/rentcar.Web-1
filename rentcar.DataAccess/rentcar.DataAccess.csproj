@@ -59,6 +59,12 @@
       <DependentUpon>UserDBModel.tt</DependentUpon>
     </Compile>
     <Compile Include="ReservationDAL.cs" />
+    <Compile Include="Role.cs">
+      <DependentUpon>UserDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagram.cs">
+      <DependentUpon>UserDBModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="User.cs">
       <DependentUpon>UserDBModel.tt</DependentUpon>
     </Compile>
