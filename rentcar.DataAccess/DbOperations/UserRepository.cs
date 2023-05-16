@@ -41,5 +41,20 @@ namespace rentcar.DataAccess.DbOperations
                 return result;
             }
         }
+        public bool DeleteUser(int id)
+        {
+            using(var context = new UserDBEntities())
+            {
+                var user = context.Users.FirstOrDefault(x => x.UserId == id);
+                if (user != null)
+                {
+                    context.Users.Remove(user);
+                    context.SaveChanges();
+                    return true;
+                }
+                return false;
+            }
+
+        }
     }
 }
