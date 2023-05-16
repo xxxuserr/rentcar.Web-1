@@ -1,4 +1,5 @@
 ﻿using rentcar.BusinessObjects;
+using rentcar.DataAccess;
 using rentcar.DataAccess.DbOperations;
 using System;
 using System.Collections.Generic;
@@ -44,6 +45,14 @@ namespace rentcar.Web.Controllers
                 }
             }
             return View();
+        }
+
+        [HttpGet]
+        public ActionResult Delete(int id)
+        {
+           
+            repository.DeleteUser(id);
+            return RedirectToAction("Users");
         }
     }
 }
