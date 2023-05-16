@@ -9,14 +9,15 @@ namespace rentcar.DataAccess.DbOperations
 {
     public class UserRepository
     {
-        public int CreateUser(UserBO objUserBo)
+        public int CreateUser(UserBO model)
         {
             using (var context = new UserDBEntities())
             {
                 User emp = new User()
                 {
-                    UserName = objUserBo.UserName,
-                    UserEmail = objUserBo.UserEmail,
+                    UserName = model.UserName,
+                    UserEmail = model.UserEmail,
+                    UserPasscode = model.Password,
 
                 };
                 context.Users.Add(emp);
