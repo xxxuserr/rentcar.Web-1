@@ -43,6 +43,7 @@
           <Property Name="UserName" Type="varchar" MaxLength="50" Nullable="false" />
           <Property Name="UserEmail" Type="varchar" MaxLength="50" Nullable="false" />
           <Property Name="UserPasscode" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="UserRole" Type="varchar" MaxLength="50" />
         </EntityType>
         <Association Name="FK__Roles__UserId__1EA48E88">
           <End Role="Users" Type="Self.Users" Multiplicity="1" />
@@ -120,6 +121,7 @@
           <Property Name="UserEmail" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="UserPasscode" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
           <NavigationProperty Name="Roles" Relationship="UserDBModel.FK__Roles__UserId__1EA48E88" FromRole="User" ToRole="Role" />
+          <Property Name="UserRole" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
         </EntityType>
         <Association Name="FK__Roles__UserId__1EA48E88">
           <End Type="UserDBModel.User" Role="User" Multiplicity="1" />
@@ -175,6 +177,7 @@
           <EntitySetMapping Name="Users">
             <EntityTypeMapping TypeName="UserDBModel.User">
               <MappingFragment StoreEntitySet="Users">
+                <ScalarProperty Name="UserRole" ColumnName="UserRole" />
                 <ScalarProperty Name="UserPasscode" ColumnName="UserPasscode" />
                 <ScalarProperty Name="UserEmail" ColumnName="UserEmail" />
                 <ScalarProperty Name="UserName" ColumnName="UserName" />

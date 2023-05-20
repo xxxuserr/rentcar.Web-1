@@ -8,8 +8,10 @@ using System.Web.Mvc;
 
 namespace rentcar.Web.Controllers
 {
+    
     public class ReservationsController : Controller
     {
+        [Authorize]
         // GET: Reservations/Booking
         public ActionResult Booking()
         {
