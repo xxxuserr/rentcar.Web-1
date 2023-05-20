@@ -24,6 +24,7 @@ namespace rentcar.DataAccess
         public string UserName { get; set; }
         public string UserEmail { get; set; }
         public string UserPasscode { get; set; }
+        public string UserRole { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Role> Roles { get; set; }

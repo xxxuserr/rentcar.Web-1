@@ -13,7 +13,26 @@ namespace rentcar.Web
 
         public override void AddUsersToRoles(string[] usernames, string[] roleNames)
         {
-            throw new NotImplementedException();
+            using (var context = new UserDBEntities())
+            {
+                foreach (var username in usernames)
+                {
+                    var user = context.Users.FirstOrDefault(u => u.UserName == username);
+
+                    if (user != null)
+                    {
+                        var roleName = "User"; // Replace with the desired default role name
+                        var role = context.Roles.SingleOrDefault(r => r.Role1 == roleName);
+
+                        if (role != null && !user.Roles.Contains(role))
+                        {
+                            user.Roles.Add(role);
+                        }
+                    }
+                }
+
+                context.SaveChanges();
+            }
         }
 
         public override void CreateRole(string roleName)

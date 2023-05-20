@@ -25,6 +25,7 @@ namespace rentcar.DataAccess
                 UserName = objUserBo.UserName,
                 UserEmail = objUserBo.UserEmail,
                 UserPasscode = objUserBo.Password,
+                UserRole = "User",
             };
             objUserDbEntities.Users.Add(objUser);
             int returnValue = objUserDbEntities.SaveChanges();
