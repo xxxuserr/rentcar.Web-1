@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web.Security;
 using System.Web.UI.WebControls;
+using BCrypt.Net;
 
 namespace rentcar.DataAccess
 {
@@ -24,7 +25,7 @@ namespace rentcar.DataAccess
             {
                 UserName = objUserBo.UserName,
                 UserEmail = objUserBo.UserEmail,
-                UserPasscode = objUserBo.Password,
+                UserPasscode = BCrypt.Net.BCrypt.HashPassword(objUserBo.Password, BCrypt.Net.BCrypt.GenerateSalt(12)),
                 UserRole = "User",
             };
             objUserDbEntities.Users.Add(objUser);
@@ -46,24 +47,23 @@ namespace rentcar.DataAccess
         {
             UserDBEntities entity = new UserDBEntities();
             CustomBO objCustomBo = new CustomBO();
-            bool userExists = entity.Users.Any(x => x.UserEmail == credentials.UserEmail && x.UserPasscode == credentials.Password);
-            User u = entity.Users.FirstOrDefault(x => x.UserEmail == credentials.UserEmail && x.UserPasscode == credentials.Password);
-            if (userExists)
+            bool userExists = entity.Users.Any(x => x.UserEmail == credentials.UserEmail);
+            User u = entity.Users.FirstOrDefault(x => x.UserEmail == credentials.UserEmail);
+            if (userExists && u != null && BCrypt.Net.BCrypt.Verify(credentials.Password, u.UserPasscode))
             {
                 FormsAuthentication.SetAuthCookie(u.UserName, false);
-                objCustomBo.CustomMessage = "Data Successfully Added.";
-                int returnValue = 0;
-                objCustomBo.CustomMessageNumber = returnValue;
+                objCustomBo.CustomMessage = "Login Successful.";
+                objCustomBo.CustomMessageNumber = 0;
             }
             else
             {
-                objCustomBo.CustomMessage = "There is some problem.";
-                int returnValue = 0;
-                objCustomBo.CustomMessageNumber = returnValue;
+                objCustomBo.CustomMessage = "Invalid Email or Password.";
+                objCustomBo.CustomMessageNumber = 0;
             }
             return objCustomBo;
         }
-        
+
+
     }
 }
 

@@ -22,5 +22,6 @@ namespace rentcar.BusinessObjects
         [Required(ErrorMessage = "User Password is required!")]
 
         public string Password { get; set; }
+
     }
 }
