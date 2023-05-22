@@ -12,7 +12,7 @@ namespace rentcar.BusinessObjects
 {
     public class ReservationBO
     {
-
+        [Key]
         public int RId { get; set; }
         [Display(Name = "User Name")]
         [Required(ErrorMessage = "User Name is required!")]
@@ -29,15 +29,9 @@ namespace rentcar.BusinessObjects
         [Display(Name = "Pickup Date&Time")]
         [Required(ErrorMessage = "Pickup Date&Time is required!!")]
         public string RPickUpDateTime { get; set; }
-        [Display(Name = "Drop Off Date&Time")]
+        [Display(Name = "DropOff Date&Time")]
         [Required(ErrorMessage = "Drop Off Date&Time is required!!")]
         public string RDropOffDateTime { get; set; }
-
-        public enum Marks
-        {
-            Opel = 1,
-            Volvo
-        }
 
     }
 }

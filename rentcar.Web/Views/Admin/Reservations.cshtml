@@ -1,0 +1,64 @@
+﻿@model IEnumerable<rentcar.BusinessObjects.ReservationBO>
+
+@{
+    ViewBag.Title = "Reservations";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+<h2>Reservations</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.RUserName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RUserEmail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RUserMark)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RUserModel)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RPickUpDateTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RDropOffDateTime)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.RUserName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RUserEmail)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RUserMark)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RUserModel)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RPickUpDateTime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RDropOffDateTime)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.RId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.RId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.RId })
+        </td>
+    </tr>
+}
+
+</table>

@@ -94,17 +94,32 @@
     <Compile Include="DbOperations\UserRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reservation.cs">
-      <DependentUpon>UserDBModel.tt</DependentUpon>
+      <DependentUpon>ReservationDBModel.tt</DependentUpon>
     </Compile>
     <Compile Include="ReservationDAL.cs" />
+    <Compile Include="ReservationDBModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReservationDBModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReservationDBModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReservationDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReservationDBModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReservationDBModel.edmx</DependentUpon>
+    </Compile>
     <Compile Include="Role.cs">
-      <DependentUpon>UserDBModel.tt</DependentUpon>
+      <DependentUpon>ReservationDBModel.tt</DependentUpon>
     </Compile>
     <Compile Include="sysdiagram.cs">
-      <DependentUpon>UserDBModel.tt</DependentUpon>
+      <DependentUpon>ReservationDBModel.tt</DependentUpon>
     </Compile>
     <Compile Include="User.cs">
-      <DependentUpon>UserDBModel.tt</DependentUpon>
+      <DependentUpon>ReservationDBModel.tt</DependentUpon>
     </Compile>
     <Compile Include="UserDAL.cs" />
     <Compile Include="UserDBModel.Context.cs">
@@ -130,6 +145,13 @@
       <LastGenOutput>UserDBModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
     <None Include="packages.config" />
+    <EntityDeploy Include="ReservationDBModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ReservationDBModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="ReservationDBModel.edmx.diagram">
+      <DependentUpon>ReservationDBModel.edmx</DependentUpon>
+    </None>
     <None Include="UserDBModel.edmx.diagram">
       <DependentUpon>UserDBModel.edmx</DependentUpon>
     </None>
@@ -144,6 +166,16 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ReservationDBModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ReservationDBModel.edmx</DependentUpon>
+      <LastGenOutput>ReservationDBModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="ReservationDBModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ReservationDBModel.edmx</DependentUpon>
+      <LastGenOutput>ReservationDBModel.cs</LastGenOutput>
+    </Content>
     <Content Include="UserDBModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>UserDBModel.edmx</DependentUpon>
