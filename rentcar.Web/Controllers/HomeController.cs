@@ -1,9 +1,12 @@
 ﻿using rentcar.DataAccess;
+using rentcar.BusinessObjects;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using rentcar.DataAccess.DbOperations;
+using System.Security.Claims;
 
 namespace rentcar.Web.Controllers
 {
@@ -75,6 +78,14 @@ namespace rentcar.Web.Controllers
         {
             return View();
         }
+        public ActionResult Reservations(UserRepository userRepository)
+        {
+            string userName = User.Identity.Name;
+            List<ReservationBO> reservations = userRepository.GetReservationUser(userName);
+
+            return View(reservations);
+        }
+
 
     }
 }

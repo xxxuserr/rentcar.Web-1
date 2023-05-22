@@ -89,5 +89,25 @@ namespace rentcar.DataAccess.DbOperations
             }
 
         }
+        public List<ReservationBO> GetReservationUser(string userName)
+        {
+            using (var context = new UserDBEntities())
+            {
+                var result = context.Reservations
+                    .Where(x => x.RUserName == userName)
+                    .Select(x => new ReservationBO()
+                    {
+                        RId = x.RId,
+                        RUserName = x.RUserName,
+                        RUserEmail = x.RUserEmail,
+                        RUserMark = x.RUserMark,
+                        RUserModel = x.RUserModel,
+                        RPickUpDateTime = x.RPickUpDateTime,
+                        RDropOffDateTime = x.RDropOffDateTime,
+                    }).ToList();
+                return result;
+            }
+        }
+
     }
 }
