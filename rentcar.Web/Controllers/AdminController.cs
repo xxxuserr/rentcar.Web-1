@@ -60,5 +60,12 @@ namespace rentcar.Web.Controllers
             var result = repository.GetReservations();
             return View(result);
         }
+        [HttpGet]
+        public ActionResult DeleteReservation(int id)
+        {
+
+            repository.DeleteReservation(id);
+            return RedirectToAction("Reservations");
+        }
     }
 }
