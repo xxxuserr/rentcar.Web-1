@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.Mvc;
 using System.Xml.Linq;
 
 namespace rentcar.BusinessObjects
@@ -28,24 +29,17 @@ namespace rentcar.BusinessObjects
         [Display(Name = "Pickup Date&Time")]
         [Required(ErrorMessage = "Pickup Date&Time is required!!")]
         public string RPickUpDateTime { get; set; }
-        [Display(Name = "Frop Off Date&Time")]
+        [Display(Name = "Drop Off Date&Time")]
         [Required(ErrorMessage = "Drop Off Date&Time is required!!")]
         public string RDropOffDateTime { get; set; }
-        
-        //public string PickUpDate => RPickUpDateTime.ToString("MM/dd/yyyy");
-        //[NotMapped]
-        //public string PickUpTime => RPickUpDateTime.ToString("hh:mm tt");
-        //[NotMapped]
-        //public string DropOffDate => RDropOffDateTime.ToString("MM/dd/yyyy");
-        //[NotMapped]
-        //public string DropOffTime => RDropOffDateTime.ToString("hh:mm tt");
+
+        public enum Marks
+        {
+            Opel = 1,
+            Volvo
+        }
+
     }
-            public enum Marks
-            {
-                Opel = 1,
-                Volvo
-            }
-  
-    }
+}
 
 
