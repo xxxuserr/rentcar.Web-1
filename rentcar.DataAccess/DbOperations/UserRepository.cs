@@ -74,5 +74,20 @@ namespace rentcar.DataAccess.DbOperations
                 return result;
             }
         }
+        public bool DeleteReservation(int id)
+        {
+            using (var context = new UserDBEntities())
+            {
+                var reservation = context.Reservations.FirstOrDefault(x => x.RId == id);
+                if (reservation != null)
+                {
+                    context.Reservations.Remove(reservation);
+                    context.SaveChanges();
+                    return true;
+                }
+                return false;
+            }
+
+        }
     }
 }
