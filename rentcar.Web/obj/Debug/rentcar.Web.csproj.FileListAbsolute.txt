@@ -511,3 +511,5 @@ C:\Users\Nimerenco\Documents\GitHub\rentcar.Web\rentcar.Web\obj\Debug\rentcar.We
 C:\Users\Nimerenco\Documents\GitHub\rentcar.Web\rentcar.Web\obj\Debug\rentcar.Web.csproj.CopyComplete
 C:\Users\Nimerenco\Documents\GitHub\rentcar.Web\rentcar.Web\obj\Debug\rentcar.Web.dll
 C:\Users\Nimerenco\Documents\GitHub\rentcar.Web\rentcar.Web\obj\Debug\rentcar.Web.pdb
+C:\Users\Dan\Documents\GitHub\rentcar.Web\rentcar.Web\bin\BCrypt.Net-Next.dll
+C:\Users\Dan\Documents\GitHub\rentcar.Web\rentcar.Web\bin\BCrypt.Net-Next.xml
