@@ -8,7 +8,7 @@ using System.Web.Mvc;
 
 namespace rentcar.Web.Controllers
 {
-    
+
     public class ReservationsController : Controller
     {
         [Authorize]
@@ -17,6 +17,7 @@ namespace rentcar.Web.Controllers
         {
             ViewData["PickupTimeOptions"] = GetPickupTimeOptions();
             ViewData["DropOffTimeOptions"] = GetDropOffTimeOptions();
+            ViewData["CarMarksOptions"] = GetCarMark();
 
             return View();
         }
@@ -62,6 +63,20 @@ namespace rentcar.Web.Controllers
         new SelectListItem { Value = "16:00", Text = "13:00 AM" },
         };
             return pickupTimes;
+        }
+        public IEnumerable<SelectListItem> GetCarMark()
+        {
+            List<SelectListItem> carmarks = new List<SelectListItem>
+        {
+        new SelectListItem { Value = "BMW", Text = "BMW" },
+        new SelectListItem { Value = "FORD", Text = "FORD" },
+        new SelectListItem { Value = "VOLVO", Text = "VOLVO" },
+        new SelectListItem { Value = "VOLKSWAGEN", Text = "VOLKSWAGEN" },
+        new SelectListItem { Value = "MERCEDES-BENZ", Text = "Mercedes" },
+        new SelectListItem { Value = "HYUNDAI", Text = "HYUNDAI" },
+        new SelectListItem { Value = "TOYOTA", Text = "TOYOTA" },
+        };
+            return carmarks;
         }
     }
 }
