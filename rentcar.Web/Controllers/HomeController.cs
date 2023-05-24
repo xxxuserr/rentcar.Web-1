@@ -33,6 +33,11 @@ namespace rentcar.Web.Controllers
         {
             return View();
         }
+        // GET: Home/Offers_Econom
+        public ActionResult Offers_Econom()
+        {
+            return View();
+        }
         // GET: Home/About
         public ActionResult About()
         {
