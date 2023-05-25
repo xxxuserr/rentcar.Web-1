@@ -211,10 +211,18 @@
     <Content Include="Content\themes\base\theme.css" />
     <Content Include="Content\themes\base\tooltip.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="images\audi_a8.jpg" />
+    <Content Include="images\bentley.jpg" />
+    <Content Include="images\bmw_7.jpg" />
     <Content Include="images\dacia_duster.jpeg" />
     <Content Include="images\favicon.ico" />
     <Content Include="images\ford_kuga_st_2018.jpeg" />
+    <Content Include="images\jaguar.jpg" />
     <Content Include="images\lexus_rx_450h.jpeg" />
+    <Content Include="images\m-benz.jpg" />
+    <Content Include="images\mercedes.jpg" />
+    <Content Include="images\panamera.jpg" />
+    <Content Include="images\premium.jpg" />
     <Content Include="images\rav4.jpeg" />
     <Content Include="images\tucson_2022.jpeg" />
     <Content Include="images\vw_touareg.jpeg" />
@@ -496,6 +504,7 @@
     <Content Include="Views\Home\Offers_suv.cshtml" />
     <Content Include="Views\Reservations\Booking.cshtml" />
     <Content Include="Views\Home\Reservations.cshtml" />
+    <Content Include="Views\Home\Offers_premium.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
