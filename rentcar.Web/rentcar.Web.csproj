@@ -213,6 +213,9 @@
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="images\BMWi3.jpg" />
     <Content Include="images\chevrolete_bolt.jpg" />
+    <Content Include="images\audi_a8.jpg" />
+    <Content Include="images\bentley.jpg" />
+    <Content Include="images\bmw_7.jpg" />
     <Content Include="images\dacia_duster.jpeg" />
     <Content Include="images\econom.jpg" />
     <Content Include="images\favicon.ico" />
@@ -222,6 +225,12 @@
     <Content Include="images\kia_rio.jpg" />
     <Content Include="images\lexus_rx_450h.jpeg" />
     <Content Include="images\prius.jpg" />
+    <Content Include="images\jaguar.jpg" />
+    <Content Include="images\lexus_rx_450h.jpeg" />
+    <Content Include="images\m-benz.jpg" />
+    <Content Include="images\mercedes.jpg" />
+    <Content Include="images\panamera.jpg" />
+    <Content Include="images\premium.jpg" />
     <Content Include="images\rav4.jpeg" />
     <Content Include="images\tcorolla.jpg" />
     <Content Include="images\tucson_2022.jpeg" />
@@ -505,6 +514,7 @@
     <Content Include="Views\Reservations\Booking.cshtml" />
     <Content Include="Views\Home\Reservations.cshtml" />
     <Content Include="Views\Home\Offers_econom.cshtml" />
+    <Content Include="Views\Home\Offers_premium.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
